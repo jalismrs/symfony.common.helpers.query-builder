@@ -1,0 +1,41 @@
+{
+  "authors" : [
+    {
+      "name" : "Kévin CASTEJON",
+      "email" : "kevin.castejon@jalis.fr",
+      "role" : "Developer"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Jalismrs\\Symfony\\Common\\Helpers\\" : "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "Tests\\" : "tests/"
+    }
+  },
+  "config" : {
+    "sort-packages" : true
+  },
+  "description" : "Adds Symfony request helper methods",
+  "license": "MIT",
+  "name" : "jalismrs/symfony.common.helpers.query-builder",
+  "require-dev" : {
+    "composer/package-versions-deprecated" : "*",
+    "phpunit/phpunit" : "9.4.2",
+    "roave/security-advisories" : "dev-master"
+  },
+  "require" : {
+    "php" : "^7.4",
+    "symfony/http-foundation" : "^5.0"
+  },
+  "support" : {
+    "email" : "dev@jalis.fr",
+    "issues" : "https://github.com/jalismrs/symfony.common.helpers.query-builder/issues",
+    "wiki" : "https://github.com/jalismrs/symfony.common.helpers.query-builder/wiki",
+    "source" : "https://github.com/jalismrs/symfony.common.helpers.query-builder",
+    "docs" : "https://github.com/jalismrs/symfony.common.helpers.query-builder"
+  }
+}
